@@ -1,4 +1,4 @@
-# tela-de-carregamento-animacao-css
+# tela-de-carregamento-animação-css
 
 Projeto construído utilizando HTML e CSS. Simplesmente criado para desenvolver as minhas habilidades com CSS e animações.
 
