@@ -10,7 +10,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(32, 27, 27);
+    background: rgb(35, 54, 90);
     animation: animateBg 10s linear infinite;
 }
 
@@ -48,10 +48,22 @@ section .loader span::before{
     height: 15px;
     border-radius: 50%;
     background: wheat;
-    box-shadow: 0 0 5px #798679,
-                            0 0 10px #798679,
-                            0 0 20px #798679,
-                            0 0 30px #798679,
-                            0 0 40px #798679,
-                            0 0 50px #798679;
+    box-shadow: 0 0 10px #798679,
+                0 0 20px #798679,
+                0 0 40px #798679,
+                0 0 60px #798679,
+                0 0 80px #798679,
+                0 0 100px #798679;
+    animation: animate 2s 2s linear infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animate {
+    0%{
+        transform: scale(1);
+    }
+
+    80%, 100% {
+        transform: scale(0);
+    }
 }
