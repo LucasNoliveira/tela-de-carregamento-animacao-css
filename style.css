@@ -10,7 +10,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(35, 54, 90);
+    background: rgb(33, 92, 202);
     animation: animateBg 10s linear infinite;
 }
 
