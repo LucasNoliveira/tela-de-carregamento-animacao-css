@@ -12,3 +12,8 @@ section {
     min-height: 100vh;
     background: rgb(32, 27, 27);
 }
+section .loader{
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
